@@ -1,6 +1,6 @@
 ## 6. Test Your Setup
 
-At this point, you're done with configuring S3 and Lambda! All that's left to do is to test your setup! We'll do this by simply uploading an .mp3 file the the "audio/" folder of our S3 bucket. That act alone should invoke our Lambda function and create a well formatted .json file within our S3 bucket's "feed/" folder.
+At this point, you're done with configuring S3 and Lambda! All that's left to do is to test your setup! We'll do this by simply uploading an .mp3 file to the "audio/" folder of our S3 bucket. That act alone should invoke our Lambda function and create a well formatted .json file within our S3 bucket's "feed/" folder.
 
 1. Click the name of the bucket you just created
 ![configure_s3_1.png](../assets/4-configure-s3-bucket/configure_s3_1.png)
