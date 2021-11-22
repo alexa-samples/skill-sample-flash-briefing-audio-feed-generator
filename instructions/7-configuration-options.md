@@ -13,7 +13,7 @@ single_item_feed = True
 #### **frugality**
 When set to ```True```, the "frugality" variable will change the S3 storage class of your .mp3 to use "S3 Intelligent Tiering". When using this S3 storage class, S3 will automatically move objects to a lower cost storage class depending upon their usage.
 
-When it comes to flash briefing .mp3s then, Alexa will never play content that's older than 7 days. It's therefore reasonable to expect that any files you've uploaded that are older than 7 days old will see a decline in access.
+When it comes to flash briefing .mp3s then, Alexa will never play content that's older than 7 days. It's therefore reasonable to expect that any files you've uploaded that are older than 7 days old will see a decline in use.
 
 By using "S3 Intelligent Tiering" then, you're allowing S3 to automtically move your .mp3s to lower cost storage classes as needed, rather than keeping all of your .mp3s in the most expensive "S3 Standard" storage class.
 
